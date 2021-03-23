@@ -3,8 +3,8 @@
 -- \c igts igts
 CREATE TABLE account (
     id integer NOT NULL,
-    firstName character varying(100),
-    lastName character varying(100),
+    firstname character varying(100),
+    lastname character varying(100),
     email character varying(50),
     country character varying(50),
     state character varying(50),
